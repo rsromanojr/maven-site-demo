@@ -1,0 +1,6 @@
+digraph G {
+	Idle -> Connected;
+	Connected -> Disconnected;
+	Disconnected -> Retry;
+	Retry -> Connected; 
+}
